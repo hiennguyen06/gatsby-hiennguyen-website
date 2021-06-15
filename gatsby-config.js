@@ -10,6 +10,11 @@ require("dotenv").config({
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Hien Nguyen`,
+    siteUrl: `https://www.hiennguyen.com.au/`,
+    description: `Hien Nguyen front end developer from Melbourne, Australia`,
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
