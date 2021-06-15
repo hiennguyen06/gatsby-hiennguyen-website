@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/Layout"
 import HomeContent from "../components/HomeContent"
@@ -22,6 +23,9 @@ const Home = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <title>Hien Nguyen</title>
+      </Helmet>
       <HomeContent changeBg={changeBg} />
       <Projects />
       <AboutHome />
