@@ -77,7 +77,9 @@ const Project = ({ project }) => {
   return (
     <SingleProjectStyles>
       <div className="overlay-container">
-        <GatsbyImage image={image} alt={project.name} />
+        <a href={`${project.url}`} target="_blank" rel="noreferrer">
+          <GatsbyImage image={image} alt={project.name} />
+        </a>
         <a href={`${project.url}`} target="_blank" rel="noreferrer">
           <div className="project-overlay">
             <div>
@@ -101,7 +103,9 @@ const Project = ({ project }) => {
         </a>
       </div>
       <div className="project-detail">
-        <Heading small>{project.name}</Heading>
+        <a href={`${project.url}`} target="_blank" rel="noreferrer">
+          <Heading small>{project.name}</Heading>
+        </a>
         <div>
           <p>{project.description}</p>
         </div>
