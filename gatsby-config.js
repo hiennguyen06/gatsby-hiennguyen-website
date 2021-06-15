@@ -29,5 +29,17 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_API_KEY,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Hien Nguyen`,
+        short_name: `Hien Nguyen`,
+        start_url: `/`,
+        background_color: `#fff`,
+        theme_color: `#E6B753`,
+        display: `standalone`,
+        icon: `src/images/favicon.png`,
+      },
+    },
   ],
 }

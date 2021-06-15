@@ -59,8 +59,8 @@ const SingleProjectStyles = styled.div`
         transition: all 200ms linear;
 
         &:hover {
-          color: #f1be36;
-          border-bottom: 1px solid #f1be36;
+          color: #e6b753;
+          border-bottom: 1px solid #e6b753;
         }
       }
     }

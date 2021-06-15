@@ -9,7 +9,7 @@ import {
 } from "../styles/gobalStyles"
 
 const HomeStyles = styled.div`
-  background: ${({ changeBg }) => (changeBg ? "#fff" : "#f1be36")};
+  background: ${({ changeBg }) => (changeBg ? "#fff" : "#e6b753")};
   width: 100vw;
   height: 100vh;
   transition: all 0.5s ease;
