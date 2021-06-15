@@ -13,13 +13,14 @@ module.exports = {
   siteMetadata: {
     title: `Hien Nguyen`,
     siteUrl: `https://www.hiennguyen.com.au/`,
-    description: `Hien Nguyen front end developer from Melbourne, Australia`,
+    description: `Hien Nguyen - front end web developer from Melbourne, Australia`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
