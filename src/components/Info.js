@@ -10,7 +10,7 @@ const InfoStyles = styled.div`
   right: 0;
   z-index: 99;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background: #000;
   color: #fff;
   opacity: ${({ showInfo }) => (showInfo ? "1" : "0")};
@@ -31,7 +31,7 @@ const InfoAbout = styled.div`
   margin-bottom: 6rem;
 
   @media (max-width: 768px) {
-    margin-bottom: 0rem;
+    margin-bottom: 3rem;
   }
 
   span {
@@ -130,9 +130,6 @@ const Info = ({ showInfo }) => {
               <li>Gatsby JS</li>
               <li>Webflow</li>
               <li>WordPress</li>
-              <li>Figma</li>
-              <li>Google Analytics</li>
-              <li>Good Ad Manager</li>
             </ul>
           </div>
         </InfoBio>
