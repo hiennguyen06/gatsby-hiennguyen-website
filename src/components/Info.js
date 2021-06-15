@@ -7,6 +7,7 @@ const InfoStyles = styled.div`
   top: 0;
   bottom: 0;
   left: 0;
+  right: 0;
   z-index: 99;
   width: 100vw;
   height: 100vh;
@@ -30,7 +31,7 @@ const InfoAbout = styled.div`
   margin-bottom: 6rem;
 
   @media (max-width: 768px) {
-    margin-bottom: 3rem;
+    margin-bottom: 0rem;
   }
 
   span {
@@ -56,7 +57,7 @@ const InfoBio = styled.div`
   }
 
   @media (max-width: 768px) {
-    grid-gap: 3rem;
+    grid-gap: 2rem 0;
   }
 `
 
