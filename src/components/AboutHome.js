@@ -35,7 +35,7 @@ const AboutHome = () => {
               <BodyText>
                 With a background in customer service, I put myself in the
                 client's shoes throughout the entire design and development
-                process. To collaborate on a project
+                process. To collaborate on a project, please
                 <span>
                   <a href="mailto:info@hiennguyen.com.au">get in touch.</a>
                 </span>
