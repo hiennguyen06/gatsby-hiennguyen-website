@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react"
-import { Helmet } from "react-helmet"
 
 import Layout from "../components/Layout"
 import HomeContent from "../components/HomeContent"
 import Projects from "../components/Projects"
 import AboutHome from "../components/AboutHome"
+import SEO from "../components/SEO"
 
 const Home = () => {
   const [changeBg, setChangeBg] = useState(false)
@@ -23,9 +23,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <Helmet>
-        <title>Hien Nguyen</title>
-      </Helmet>
+      <SEO title="Home" />
       <HomeContent changeBg={changeBg} />
       <Projects />
       <AboutHome />
