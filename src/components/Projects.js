@@ -5,7 +5,7 @@ import Project from "./Project"
 
 export const query = graphql`
   {
-    allContentfulProjects {
+    allContentfulProjects(sort: { fields: createdAt, order: DESC }) {
       nodes {
         id
         name
